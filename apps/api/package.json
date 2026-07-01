@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "uvicorn app.main:app --reload --port 8000",
+    "build": "echo 'No build step for Python yet'",
+    "lint": "echo 'No lint step for Python yet'"
+  }
+}
